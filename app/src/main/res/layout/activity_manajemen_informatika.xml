@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManajemenInformatikaActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bctek"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Manajemen Informatika"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="#FF6600"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="370dp"
+        android:layout_height="270dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/logomi" />
+
+    <TextView
+        android:id="@+id/txt_mi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_marginTop="0sp"
+        android:gravity="center"
+        android:padding="0sp"
+        android:text="Deskripsi dan Profil"
+        android:textAlignment="center"
+        android:textColor="#065DA2"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+
+        android:id="@+id/txt_mi"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:padding="10sp"
+        android:text="Program Studi D3 Manajemen Informatika didirikan pada tahun 2005,
+   dan terakreditasi dengan peringkat B berdasarkan Surat Keputusan Badan Akreditasi nasional Perguruan Tinggi (BANPT) Departemen Pendidikan dan kebudayaan republik Indonesia Surat Keputusan Nomor :1196/SK/BAN- PT/Akred/Dpl-III/XII/2015 dengan nilai akreditasi 338. Kurikulum D3 Manajemen Informatika dirancang dengan total beban SKS sebanyak 109 SKS dengan pembagian total SKS teori sebanyak 68 SKS dengan total jam 68 jam dan total SKS praktek sebanyak 41 SKS dengan 123 jam.."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_back1"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#F25F54"
+        android:text="Back"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>
+

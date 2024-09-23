@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/bcoren"
+        tools:context=".MainActivity">
+
+        <!-- Logo Politeknik Negeri Padang -->
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:src="@drawable/logopnp"
+            android:layout_marginBottom="25dp"
+            android:contentDescription="Logo Politeknik Negeri Padang" />
+
+        <!-- Text Welcome -->
+        <TextView
+            android:id="@+id/welcome_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="serif"
+            android:text="Welcome to Politeknik Negeri Padang"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Subtext -->
+        <TextView
+            android:id="@+id/location_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Limau Manis, Padang, Sumbar"
+            android:textColor="#F5F5F5"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <!-- Button for Manajemen Informatika -->
+        <Button
+            android:id="@+id/btn_informatika"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+
+            android:backgroundTint="#ED6033"
+            android:text="Manajemen Informatika"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <!-- Button for Teknik Komputer -->
+        <Button
+            android:id="@+id/btn_komputer"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#ED6033"
+            android:text="Teknik Komputer"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <!-- Button for Galeri Photo -->
+        <Button
+            android:id="@+id/btn_galeri"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#ED6033"
+            android:text="Gallery Photo"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

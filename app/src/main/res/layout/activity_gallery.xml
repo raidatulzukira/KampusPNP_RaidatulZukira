@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#025597"
+        android:gravity="center"
+        android:text="Gallery"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:layout_marginTop="0dp"
+        android:textStyle="bold" />
+
+    <!-- Toolbar untuk Galeri -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4EA7ED"
+        android:padding="4dp">
+
+
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:horizontalSpacing="7dp"
+            android:numColumns="2"
+            android:verticalSpacing="10dp" />
+    </RelativeLayout>
+
+    <!-- RecyclerView untuk menampilkan Galeri -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:scrollbars="vertical" />
+</LinearLayout>
